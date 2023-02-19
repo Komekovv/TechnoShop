@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Shop </title>
+    <link rel="stylesheet" href="./css/shop-style.css">
+    <link rel="stylesheet" href="./css/icons/bootstrap-icons.css">
+</head>
+<body>
+     <!-- Header navbars -->
+     <header>
+        <div class="top-navbar" id="top-bar">
+            <div class="num-email">
+                <a href="#"> <i class="bi-envelope-fill"></i>  komekowkakamyrat@gmail.com</a>
+                <a href="#"> <i class="bi-telephone"></i> +993 62 701560</a>
+            </div>
+            <div class="currency-lang">
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <i class="bi-currency-exchange"></i>
+                        USD 
+                        <i class="bi-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">EUR</a>
+                        <a href="#">RUB</a>
+                        <a href="#">TMT</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <button class="dropbtn">
+                        <i class="bi-globe"></i>
+                        English 
+                      <i class="bi-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-content c">
+                      <a href="#">Russian</a>
+                      <a href="#">Turkmen</a>
+                      <a href="#">Spain</a>
+                    </div>
+                  </div>  
+            </div>
+        </div>
+       
+    </header>
+    <div id="navbar">
+        <div class="bottom-navbar">
+            <div class="logo">
+                <a href="#">
+                    <img src="./images/products/logo for nav.png" alt="">
+                </a>
+            </div>
+            <div class="categories-dropdown">
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <i class="bi-list"></i>
+                        <span>
+                        Categories 
+                        </span>
+                    <i class="bi-chevron-down"></i>
+                        
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">Laptops</a>
+                      <a href="#">PCs</a>
+                      <a href="#">Smartphones</a>
+                      <a href="#">Smart Watches</a>
+                      <a href="#">TVs</a>
+                      <a href="#">Speakers</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="menu">
+                <a href="./index.html">Menu</a>
+                <a href="#">Shop</a>
+                <a href="#">FAQ</a>
+                <a href="#">About</a>
+            </div>
+            <div class="input-icon">
+                <input type="search" name="" id="" placeholder="Search here...">
+                <div class="icon-search">
+                    <a href="#">
+                        <i class="bi-search"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="icon-menues">
+                <a href="#"> <i class="bi-cart"></i> <span>1</span> </a> 
+            </div>
+            <div class="signin">
+                <a href="#">Sign In</a>
+            </div>
+        </div>
+    </div>
+<!-- Login form -->
+    <div id="id01" class="modal">
+  
+    <form class="modal-content animate">
+        <div class="imgcontainer">
+            <h1>Log In</h1>
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        </div>
+    
+        <div class="container">
+            <label for="email"><b>E-mail:</b></label>
+            <input type="text" placeholder="Your E-mail" name="email" required>
+    
+            <label for="psw"><b>Password:</b></label>
+            <input type="password" placeholder="Your Password" name="psw" required>
+            
+            <div class="lgn-btn">
+                <button type="submit">Login</button>
+            </div>
+            
+            
+        </div>
+    
+        <div class="container">
+            <div class="forgot-create">
+                <div class="forgot">Forgot <a href="#">password?</a></div>
+                <div class="create">Don't you have an account <a href="#">Create here.</a></div>
+            </div>
+
+        </div>
+    </form>
+    </div>
+    <!-- Shop -->
+    <section id="box-sec">
+        <div class="nav">
+            <h2>Home > <span>Shop</span></h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="cat-box">
+                    <div class="filters">
+                        Filters:
+                    </div>
+                    <div class="chekbox">
+                        <div class="title">
+                            <span>Categories</span><span><i class="bi-chevron-down" style="color: #514EFB;"></i></span>
+                        </div>
+                        <div class="check">
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="laptop" id="check">
+                                    <label for="laptop">Laptops</label>
+                                    <span>26</span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="laptop" id="check">
+                                    <label for="pc">PCs</label>
+                                    <span>26</span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="tv" id="check">
+                                    <label for="tv">TVs</label>
+                                    <span>26</span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="airphones" id="check">
+                                    <label for="airphones">Airphones</label>
+                                    <span>26</span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="smartphone" id="check">
+                                    <label for="smartphone">Smartphones</label>
+                                    <span>26</span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="speaker" id="check">
+                                    <label for="speaker">Speakers</label>
+                                    <span>26</span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="camera" id="check">
+                                    <label for="camera">Cameras</label>
+                                    <span>26</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="chekbox">
+                        <div class="title">
+                            <span>Price</span><span><i class="bi-chevron-down" style="color: #514EFB;"></i></span>
+                        </div>
+                        <div class="min-max">
+                            <label for="inp">Min-Max</label>
+                            <input type="text"> - <input type="text">
+                        </div>
+                    </div>
+                    <div class="chekbox">
+                        <div class="title">
+                            <span>Brands</span><span><i class="bi-chevron-down" style="color: #514EFB;"></i></span>
+                        </div>
+                        <div class="check">
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="laptop" id="check">
+                                    <label for="laptop">Laptops</label>
+                                    <span>26</span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="laptop" id="check">
+                                    <label for="pc">PCs</label>
+                                    <span>26</span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="tv" id="check">
+                                    <label for="tv">TVs</label>
+                                    <span>26</span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="airphones" id="check">
+                                    <label for="airphones">Airphones</label>
+                                    <span>26</span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="smartphone" id="check">
+                                    <label for="smartphone">Smartphones</label>
+                                    <span>26</span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="speaker" id="check">
+                                    <label for="speaker">Speakers</label>
+                                    <span>26</span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="camera" id="check">
+                                    <label for="camera">Cameras</label>
+                                    <span>26</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="shop">
+                    <div class="sort-box">
+                        <div class="product-number">
+                            256 product found
+                        </div>
+                        <div class="filter">
+                            Sort by: <select name="All" id="">
+                                <option value="">All</option>
+                                <option value="">Most popular</option>
+                                <option value="">Best selling</option>
+                                <option value="">Most rated</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="products">
+                        <div class="best-items-container">
+
+                            <div class="best-items-box" >
+                                <div class="product">
+                                    <div class="product-media">
+                                        <a href="product.html">
+                                            <img src="./images/products/laptops&PCs/AcerNitro5AN515-45__1__09.jpg" alt="" class="product-image">
+                                        </a>
+                                        <div class="colors">
+                                            <a href="#" class="black"></a>
+                                            <a href="#" class="blue"></a>
+                                            <a href="#" class="white"></a>
+                                        </div>
+                                    </div>
+                                    <div class="product-body">
+                                        <div class="product-category">
+                                            <a href="product.html">Laptops</a>
+                                        </div>
+                                        <h3 class="product-name"><a href="#">Acer Nitro 5 AN515-45-R2X0 R7... </a></h3>
+                                        <div class="product-price">
+                                            $1399.99
+                                        </div>
+                                        <div class="ratings-container">
+                                            <div class="ratings">
+                                                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill" style="color: rgb(197, 195, 195);"></i>
+                                            </div>
+                                            <span class="ratings-text">(282 reviews)</span>
+                                        </div>
+                                        <div class="add-heart-container">
+                                            <div class="add-box">Add to cart</div>
+                                            <div class="heart-box">
+                                                <a href="product.html"><i class="bi-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="best-items-box" >
+                                <div class="product">
+                                    <div class="product-media">
+                                        <a href="product.html">
+                                            <img src="./images/products/product-20.png" alt="" class="product-image">
+                                        </a>
+                                        <div class="colors">
+                                            <a href="#" class="black"></a>
+                                            <a href="#" class="blue"></a>
+                                            <a href="#" class="white"></a>
+                                        </div>
+                                    </div>
+                                    <div class="product-body">
+                                        <div class="product-category">
+                                            <a href="product.html">TV</a>
+                                        </div>
+                                        <h3 class="product-name"><a href="#">Acer Aspire 3.  Display 
+                                            15`6, i5 1010G3... </a></h3>
+                                        <div class="product-price">
+                                            $459
+                                        </div>
+                                        <div class="ratings-container">
+                                            <div class="ratings">
+                                                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i>
+                                            </div>
+                                            <span class="ratings-text">(223 reviews)</span>
+                                        </div>
+                                        <div class="add-heart-container">
+                                            <div class="add-box">Add to cart</div>
+                                            <div class="heart-box">
+                                                <a href="product.html"><i class="bi-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="best-items-box" >
+                                <div class="product">
+                                    <div class="product-media">
+                                        <a href="product.html">
+                                            <img src="./images/products/smartphones/Samsung-Galaxy-S21-Ultra-5G-128GB-Phantom-Black-8806090887505-15012021-01-p.jpg" alt="" class="product-image">
+                                        </a>
+                                        <div class="colors">
+                                            <a href="#" class="black"></a>
+                                            <a href="#" class="blue"></a>
+                                            <a href="#" class="white"></a>
+                                        </div>
+                                    </div>
+                                    <div class="product-body">
+                                        <div class="product-category">
+                                            <a href="product.html">Smartphone</a>
+                                        </div>
+                                        <h3 class="product-name"><a href="#">Samsung Galaxy S21 Ultra... </a></h3>
+                                        <div class="product-price">
+                                            $649.99
+                                        </div>
+                                        <div class="ratings-container">
+                                            <div class="ratings">
+                                                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i>
+                                            </div>
+                                            <span class="ratings-text">(149 reviews)</span>
+                                        </div>
+                                        <div class="add-heart-container">
+                                            <div class="add-box">Add to cart</div>
+                                            <div class="heart-box">
+                                                <a href="product.html"><i class="bi-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="best-items-box" >
+                                <div class="product">
+                                    <div class="product-media">
+                                        <a href="product.html">
+                                            <img src="./images/./products/cameras/product-5.jpg" alt="" class="product-image">
+                                        </a>
+                                    </div>
+                                    <div class="product-body">
+                                        <div class="product-category">
+                                            <a href="product.html">Digital Camera</a>
+                                        </div>
+                                        <h3 class="product-name"><a href="#">Digital Camera Canon 64px... </a></h3>
+                                        <div class="product-price">
+                                            $459
+                                        </div>
+                                        <div class="ratings-container">
+                                            <div class="ratings">
+                                                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i>
+                                            </div>
+                                            <span class="ratings-text">(223 reviews)</span>
+                                        </div>
+                                        <div class="add-heart-container">
+                                            <div class="add-box">Add to cart</div>
+                                            <div class="heart-box">
+                                                <a href="product.html"><i class="bi-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div>
+                        <div class="best-items-container">
+
+                            <div class="best-items-box" >
+                                <div class="product">
+                                    <div class="product-media">
+                                        <a href="product.html">
+                                            <img src="./images/products/laptops&PCs/AcerNitro5AN515-45__1__09.jpg" alt="" class="product-image">
+                                        </a>
+                                        <div class="colors">
+                                            <a href="#" class="black"></a>
+                                            <a href="#" class="blue"></a>
+                                            <a href="#" class="white"></a>
+                                        </div>
+                                    </div>
+                                    <div class="product-body">
+                                        <div class="product-category">
+                                            <a href="product.html">Laptops</a>
+                                        </div>
+                                        <h3 class="product-name"><a href="#">Acer Nitro 5 AN515-45-R2X0 R7... </a></h3>
+                                        <div class="product-price">
+                                            $1399.99
+                                        </div>
+                                        <div class="ratings-container">
+                                            <div class="ratings">
+                                                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill" style="color: rgb(197, 195, 195);"></i>
+                                            </div>
+                                            <span class="ratings-text">(282 reviews)</span>
+                                        </div>
+                                        <div class="add-heart-container">
+                                            <div class="add-box">Add to cart</div>
+                                            <div class="heart-box">
+                                                <a href="product.html"><i class="bi-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="best-items-box" >
+                                <div class="product">
+                                    <div class="product-media">
+                                        <a href="product.html">
+                                            <img src="./images/products/product-20.png" alt="" class="product-image">
+                                        </a>
+                                        <div class="colors">
+                                            <a href="#" class="black"></a>
+                                            <a href="#" class="blue"></a>
+                                            <a href="#" class="white"></a>
+                                        </div>
+                                    </div>
+                                    <div class="product-body">
+                                        <div class="product-category">
+                                            <a href="product.html">TV</a>
+                                        </div>
+                                        <h3 class="product-name"><a href="#">Acer Aspire 3.  Display 
+                                            15`6, i5 1010G3... </a></h3>
+                                        <div class="product-price">
+                                            $459
+                                        </div>
+                                        <div class="ratings-container">
+                                            <div class="ratings">
+                                                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i>
+                                            </div>
+                                            <span class="ratings-text">(223 reviews)</span>
+                                        </div>
+                                        <div class="add-heart-container">
+                                            <div class="add-box">Add to cart</div>
+                                            <div class="heart-box">
+                                                <a href="product.html"><i class="bi-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="best-items-box" >
+                                <div class="product">
+                                    <div class="product-media">
+                                        <a href="product.html">
+                                            <img src="./images/products/smartphones/Samsung-Galaxy-S21-Ultra-5G-128GB-Phantom-Black-8806090887505-15012021-01-p.jpg" alt="" class="product-image">
+                                        </a>
+                                        <div class="colors">
+                                            <a href="#" class="black"></a>
+                                            <a href="#" class="blue"></a>
+                                            <a href="#" class="white"></a>
+                                        </div>
+                                    </div>
+                                    <div class="product-body">
+                                        <div class="product-category">
+                                            <a href="product.html">Smartphone</a>
+                                        </div>
+                                        <h3 class="product-name"><a href="#">Samsung Galaxy S21 Ultra... </a></h3>
+                                        <div class="product-price">
+                                            $649.99
+                                        </div>
+                                        <div class="ratings-container">
+                                            <div class="ratings">
+                                                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i>
+                                            </div>
+                                            <span class="ratings-text">(149 reviews)</span>
+                                        </div>
+                                        <div class="add-heart-container">
+                                            <div class="add-box">Add to cart</div>
+                                            <div class="heart-box">
+                                                <a href="product.html"><i class="bi-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="best-items-box" >
+                                <div class="product">
+                                    <div class="product-media">
+                                        <a href="product.html">
+                                            <img src="./images/./products/cameras/product-5.jpg" alt="" class="product-image">
+                                        </a>
+                                    </div>
+                                    <div class="product-body">
+                                        <div class="product-category">
+                                            <a href="product.html">Digital Camera</a>
+                                        </div>
+                                        <h3 class="product-name"><a href="#">Digital Camera Canon 64px... </a></h3>
+                                        <div class="product-price">
+                                            $459
+                                        </div>
+                                        <div class="ratings-container">
+                                            <div class="ratings">
+                                                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i>
+                                            </div>
+                                            <span class="ratings-text">(223 reviews)</span>
+                                        </div>
+                                        <div class="add-heart-container">
+                                            <div class="add-box">Add to cart</div>
+                                            <div class="heart-box">
+                                                <a href="product.html"><i class="bi-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div>
+                        <div class="best-items-container">
+
+                            <div class="best-items-box" >
+                                <div class="product">
+                                    <div class="product-media">
+                                        <a href="product.html">
+                                            <img src="./images/products/laptops&PCs/AcerNitro5AN515-45__1__09.jpg" alt="" class="product-image">
+                                        </a>
+                                        <div class="colors">
+                                            <a href="#" class="black"></a>
+                                            <a href="#" class="blue"></a>
+                                            <a href="#" class="white"></a>
+                                        </div>
+                                    </div>
+                                    <div class="product-body">
+                                        <div class="product-category">
+                                            <a href="product.html">Laptops</a>
+                                        </div>
+                                        <h3 class="product-name"><a href="#">Acer Nitro 5 AN515-45-R2X0 R7... </a></h3>
+                                        <div class="product-price">
+                                            $1399.99
+                                        </div>
+                                        <div class="ratings-container">
+                                            <div class="ratings">
+                                                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill" style="color: rgb(197, 195, 195);"></i>
+                                            </div>
+                                            <span class="ratings-text">(282 reviews)</span>
+                                        </div>
+                                        <div class="add-heart-container">
+                                            <div class="add-box">Add to cart</div>
+                                            <div class="heart-box">
+                                                <a href="product.html"><i class="bi-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="best-items-box" >
+                                <div class="product">
+                                    <div class="product-media">
+                                        <a href="product.html">
+                                            <img src="./images/products/product-20.png" alt="" class="product-image">
+                                        </a>
+                                        <div class="colors">
+                                            <a href="#" class="black"></a>
+                                            <a href="#" class="blue"></a>
+                                            <a href="#" class="white"></a>
+                                        </div>
+                                    </div>
+                                    <div class="product-body">
+                                        <div class="product-category">
+                                            <a href="product.html">TV</a>
+                                        </div>
+                                        <h3 class="product-name"><a href="#">Acer Aspire 3.  Display 
+                                            15`6, i5 1010G3... </a></h3>
+                                        <div class="product-price">
+                                            $459
+                                        </div>
+                                        <div class="ratings-container">
+                                            <div class="ratings">
+                                                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i>
+                                            </div>
+                                            <span class="ratings-text">(223 reviews)</span>
+                                        </div>
+                                        <div class="add-heart-container">
+                                            <div class="add-box">Add to cart</div>
+                                            <div class="heart-box">
+                                                <a href="product.html"><i class="bi-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="best-items-box" >
+                                <div class="product">
+                                    <div class="product-media">
+                                        <a href="product.html">
+                                            <img src="./images/products/smartphones/Samsung-Galaxy-S21-Ultra-5G-128GB-Phantom-Black-8806090887505-15012021-01-p.jpg" alt="" class="product-image">
+                                        </a>
+                                        <div class="colors">
+                                            <a href="#" class="black"></a>
+                                            <a href="#" class="blue"></a>
+                                            <a href="#" class="white"></a>
+                                        </div>
+                                    </div>
+                                    <div class="product-body">
+                                        <div class="product-category">
+                                            <a href="product.html">Smartphone</a>
+                                        </div>
+                                        <h3 class="product-name"><a href="#">Samsung Galaxy S21 Ultra... </a></h3>
+                                        <div class="product-price">
+                                            $649.99
+                                        </div>
+                                        <div class="ratings-container">
+                                            <div class="ratings">
+                                                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i>
+                                            </div>
+                                            <span class="ratings-text">(149 reviews)</span>
+                                        </div>
+                                        <div class="add-heart-container">
+                                            <div class="add-box">Add to cart</div>
+                                            <div class="heart-box">
+                                                <a href="product.html"><i class="bi-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="best-items-box" >
+                                <div class="product">
+                                    <div class="product-media">
+                                        <a href="product.html">
+                                            <img src="./images/./products/cameras/product-5.jpg" alt="" class="product-image">
+                                        </a>
+                                    </div>
+                                    <div class="product-body">
+                                        <div class="product-category">
+                                            <a href="product.html">Digital Camera</a>
+                                        </div>
+                                        <h3 class="product-name"><a href="#">Digital Camera Canon 64px... </a></h3>
+                                        <div class="product-price">
+                                            $459
+                                        </div>
+                                        <div class="ratings-container">
+                                            <div class="ratings">
+                                                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i>
+                                            </div>
+                                            <span class="ratings-text">(223 reviews)</span>
+                                        </div>
+                                        <div class="add-heart-container">
+                                            <div class="add-box">Add to cart</div>
+                                            <div class="heart-box">
+                                                <a href="product.html"><i class="bi-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer-container">
+        <div class="footer-flexbox">
+            <div class="tslogo">
+                <a href="#">
+                    <img src="./images/products/logo.png" alt="">
+                </a>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, unde placeat alias quod quaerat quae. Sequi dolor laudantium eum rem. Consectetur est similique quod! Maxime.
+                </p>
+            </div>
+            <div class="about">
+                <h1>Useful Links</h1>
+                <a href="#">About TechnoShop</a>
+                <a href="#">Our Services</a>
+                <a href="#">How to shop on TechnoShop</a>
+                <a href="#">FAQ</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="about">
+                <h1>Customer Services</h1>
+                <a href="#">Payment Methods</a>
+                <a href="#">Money-back guarantee!</a>
+                <a href="#">Terms and conditions</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="about">
+                <h1>My Account</h1>
+                <a href="#">Sign in</a>
+                <a href="#">View card</a>
+                <a href="#">My favorites</a>
+                <a href="#">Help</a>
+            </div>
+        </div>
+        <div class="payments">
+            <div class="author">Kakamyrat Komekov TechnoShop 2022.</div>
+            <div class="wallet">
+                <img src="./images/payments.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

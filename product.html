@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="./css/product.css">
+    <link rel="stylesheet" href="./css/icons/bootstrap-icons.css">
+    <link rel="shortcut icon" href="./images/products/logo for nav.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="top-navbar">
+            <div class="num-email">
+                <a href="#"> <i class="bi-envelope-fill"></i>  komekowkakamyrat@gmail.com</a>
+                <a href="#"> <i class="bi-telephone"></i> +993 62 701560</a>
+            </div>
+            <div class="currency-lang">
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <i class="bi-currency-exchange"></i>
+                        USD 
+                        <i class="bi-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">EUR</a>
+                        <a href="#">RUB</a>
+                        <a href="#">TMT</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <button class="dropbtn">
+                        <i class="bi-globe"></i>
+                        English 
+                      <i class="bi-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-content c">
+                      <a href="#">Russian</a>
+                      <a href="#">Turkmen</a>
+                      <a href="#">Spain</a>
+                    </div>
+                  </div>  
+            </div>
+        </div>
+       
+    </header>
+    <div id="navbar">
+        <div class="bottom-navbar">
+            <div class="logo">
+                <a href="#">
+                    <img src="./images/products/logo for nav.png" alt="">
+                </a>
+            </div>
+            <div class="categories-dropdown">
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <i class="bi-list"></i>
+                        <span>
+                        Categories 
+                        </span>
+                    <i class="bi-chevron-down"></i>
+                        
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">Laptops</a>
+                      <a href="#">PCs</a>
+                      <a href="#">Smartphones</a>
+                      <a href="#">Smart Watches</a>
+                      <a href="#">TVs</a>
+                      <a href="#">Speakers</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="menu">
+                <a href="./index.html">Menu</a>
+                <a href="./shop.html">Shop</a>
+                <a href="#">About</a>
+            </div>
+            <div class="input-icon">
+                <input type="search" name="" id="" placeholder="Search here...">
+                <div class="icon-search">
+                    <a href="#">
+                        <i class="bi-search"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="icon-menues">
+                <a href="#"> <i class="bi-cart"></i> <span>1</span> </a> 
+            </div>
+            <div class="signin">
+                <a href="#">Sign In</a>
+            </div>
+        </div>
+    </div>
+<!-- Login form -->
+<div id="id01" class="modal">
+    <form class="modal-content animate">
+        <div class="imgcontainer">
+            <h1>Log In</h1>
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        </div>
+        <div class="container">
+            <label for="email"><b>E-mail:</b></label>
+            <input type="text" placeholder="Your E-mail" name="email" required>
+            <label for="psw"><b>Password:</b></label>
+            <input type="password" placeholder="Your Password" name="psw" required>
+            <div class="lgn-btn">
+                <button type="submit">Login</button>
+            </div>
+        </div>
+        <div class="container">
+            Forgot <a href="#">password?</a>
+        </div>
+    </form>
+  </div>
+  <!-- section product -->
+<section>
+    <div class="container-product">
+        <div class="row">
+            <div class="column">
+              <img src="./images/products/laptops&PCs/csm_95202in1_71ac910e0b.jpg" style="width:100%" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="./images/products/laptops&PCs/4zu3_Aorus_17G_YD.jpg" style="width:100%" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="./images/products/laptops&PCs/4zu3_Lenovo_Legion_7_16ACHg6.jpg" style="width:100%" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="./images/products/laptops&PCs/AcerNitro5AN515-45__1__09.jpg" style="width:100%" onclick="myFunction(this);">
+            </div>
+        </div>
+        <div class="container-img animate">
+            <img src="./images/products/laptops&PCs/11UH-08201.jpg" id="expandedImg" style="width:100%">
+        </div>
+        <div class="text">
+            <h1>Dell Alienware M15 R4 Gaming Laptop</h1>
+            <div class="ratings">
+                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i>
+                <span>5.0 (146 reviews)</span>
+            </div>
+            <div class="price">
+                $1599.99
+            </div>
+            <div class="description">
+                <p>
+                    Dell Alienware M15 R4 Gaming Laptop with 10th Gen
+                    Intel Core processors enabling 8-cores and 16-threads
+                    of multi-threaded performance, the latest generation of
+                    Alienware m15 goes beyond its predecessor.
+                </p>
+            </div>
+            <div class="colors">
+                <span>Colors:</span>
+                <div class="black"></div>
+                <div class="red"></div>
+                <div class="grey"></div>
+            </div>
+            <div class="colors">
+                <span>Qty:</span>
+                <input type="number" placeholder="1">
+            </div>
+            <div class="add-like">
+                <div class="add">
+                    Add to cart
+                </div>
+                <span>OR</span>
+                <div class="like">
+                    <i class="bi-heart"></i>
+                    add to favorites
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+</section>
+  <script src="./js/script.js"></script>
+</body>
+</html>
